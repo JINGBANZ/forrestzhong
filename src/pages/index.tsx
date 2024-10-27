@@ -8,7 +8,7 @@ export default function Home() {
     >
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
-          className="dark:invert w-auto h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]"
+          className="w-auto h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]"
           src="/forrest.jpg"
           alt="forrest"
           width={1944}
