@@ -1,5 +1,5 @@
 import Image from "next/image";
-import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
           priority
         />
       </main>
+      <Analytics />
     </div>
   );
 }
